@@ -1,0 +1,8 @@
+@ParametersAreNonnullByDefault
+@FieldsAreNonnullByDefault
+@MethodsReturnNonnullByDefault
+package mekanism.client.jei;
+
+import javax.annotation.ParametersAreNonnullByDefault;
+import mekanism.api.annotations.FieldsAreNonnullByDefault;
+import net.minecraft.MethodsReturnNonnullByDefault;

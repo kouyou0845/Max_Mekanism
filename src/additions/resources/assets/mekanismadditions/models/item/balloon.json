@@ -1,0 +1,22 @@
+{
+	"textures": {
+		"1": "mekanismadditions:entity/balloon_string",
+		"all": "mekanismadditions:entity/balloon",
+		"particle": "mekanismadditions:entity/balloon_string"
+	},
+	"loader": "forge:separate-perspective",
+	"base": {
+		"parent": "mekanismadditions:item/balloon_latched"
+	},
+	"perspectives": {
+		"gui": {
+			"parent": "mekanismadditions:item/balloon_gui"
+		},
+		"ground": {
+			"parent": "mekanismadditions:item/balloon_fixed"
+		},
+		"fixed": {
+			"parent": "mekanismadditions:item/balloon_fixed"
+		}
+	}
+}

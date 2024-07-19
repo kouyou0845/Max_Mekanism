@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismadditions:pink_glow_panel",
+    "count": 4
+  },
+  "pattern": [
+    " # ",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "mekanismadditions:glow_panels"
+      },
+      "subtracted": {
+        "item": "mekanismadditions:pink_glow_panel"
+      }
+    },
+    "D": {
+      "tag": "forge:dyes/pink"
+    }
+  }
+}

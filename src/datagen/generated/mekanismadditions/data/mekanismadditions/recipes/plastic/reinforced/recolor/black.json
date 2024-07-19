@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismadditions:black_reinforced_plastic",
+    "count": 4
+  },
+  "pattern": [
+    " # ",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "mekanismadditions:plastic_blocks/reinforced"
+      },
+      "subtracted": {
+        "item": "mekanismadditions:black_reinforced_plastic"
+      }
+    },
+    "D": {
+      "tag": "forge:dyes/black"
+    }
+  }
+}

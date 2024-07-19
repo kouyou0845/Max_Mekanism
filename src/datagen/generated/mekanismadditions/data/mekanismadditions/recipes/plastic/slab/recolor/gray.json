@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismadditions:gray_plastic_slab",
+    "count": 4
+  },
+  "pattern": [
+    " # ",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "forge:slabs/plastic"
+      },
+      "subtracted": {
+        "item": "mekanismadditions:gray_plastic_slab"
+      }
+    },
+    "D": {
+      "tag": "forge:dyes/gray"
+    }
+  }
+}

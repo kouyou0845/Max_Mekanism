@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismadditions:lime_plastic_fence",
+    "count": 4
+  },
+  "pattern": [
+    " # ",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "forge:fences/plastic"
+      },
+      "subtracted": {
+        "item": "mekanismadditions:lime_plastic_fence"
+      }
+    },
+    "D": {
+      "tag": "forge:dyes/lime"
+    }
+  }
+}

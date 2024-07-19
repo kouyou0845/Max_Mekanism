@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanismadditions:purple_plastic",
+    "count": 4
+  },
+  "pattern": [
+    " # ",
+    "#D#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:difference",
+      "base": {
+        "tag": "mekanismadditions:plastic_blocks/plastic"
+      },
+      "subtracted": {
+        "item": "mekanismadditions:purple_plastic"
+      }
+    },
+    "D": {
+      "tag": "forge:dyes/purple"
+    }
+  }
+}
